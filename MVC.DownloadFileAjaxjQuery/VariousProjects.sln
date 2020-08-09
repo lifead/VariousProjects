@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.DownloadFileAjaxjQuery"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.GetDataFromServer", "..\MVC.GetDataFromServer\MVC.GetDataFromServer.csproj", "{D5F0788F-98BA-48DD-AB06-06F156671B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ReadXlsb", "..\Core.ReadXlsb\Core.ReadXlsb.csproj", "{87E7F835-82B9-4DD1-878E-C2DFD79BB67F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5F0788F-98BA-48DD-AB06-06F156671B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F0788F-98BA-48DD-AB06-06F156671B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F0788F-98BA-48DD-AB06-06F156671B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E7F835-82B9-4DD1-878E-C2DFD79BB67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E7F835-82B9-4DD1-878E-C2DFD79BB67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E7F835-82B9-4DD1-878E-C2DFD79BB67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E7F835-82B9-4DD1-878E-C2DFD79BB67F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
