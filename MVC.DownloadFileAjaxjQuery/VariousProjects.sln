@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.DownloadFileAjaxjQuery", "MVC.DownloadFileAjaxjQuery\MVC.DownloadFileAjaxjQuery.csproj", "{A1360ECD-47C5-48C6-AF8C-F10C6F312A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.GetDataFromServer", "..\MVC.GetDataFromServer\MVC.GetDataFromServer.csproj", "{D5F0788F-98BA-48DD-AB06-06F156671B01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A1360ECD-47C5-48C6-AF8C-F10C6F312A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1360ECD-47C5-48C6-AF8C-F10C6F312A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1360ECD-47C5-48C6-AF8C-F10C6F312A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F0788F-98BA-48DD-AB06-06F156671B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F0788F-98BA-48DD-AB06-06F156671B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F0788F-98BA-48DD-AB06-06F156671B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F0788F-98BA-48DD-AB06-06F156671B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
