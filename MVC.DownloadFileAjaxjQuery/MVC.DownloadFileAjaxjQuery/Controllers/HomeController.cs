@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -13,18 +14,18 @@ namespace MVC.DownloadFileAjaxjQuery.Controllers
             return View();
         }
 
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult UploadFile(HttpPostedFileBase fileInput)
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            if (fileInput != null)
+            {
+                // получаем имя файла
+                string fileName = System.IO.Path.GetFileName(fileInput.FileName);
+                // сохраняем файл в папку Files в проекте
+                fileInput.SaveAs(Server.MapPath("~/App_Data/" + fileName));
+            }
+            return RedirectToAction("Index");
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }
