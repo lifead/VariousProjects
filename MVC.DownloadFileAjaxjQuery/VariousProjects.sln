@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.DownloadFileAjaxjQuery"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.GetDataFromServer", "..\MVC.GetDataFromServer\MVC.GetDataFromServer.csproj", "{D5F0788F-98BA-48DD-AB06-06F156671B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ReadXlsb", "..\Core.ReadXlsb\Core.ReadXlsb.csproj", "{87E7F835-82B9-4DD1-878E-C2DFD79BB67F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ReadXlsb", "..\Core.ReadXlsb\Core.ReadXlsb.csproj", "{87E7F835-82B9-4DD1-878E-C2DFD79BB67F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
