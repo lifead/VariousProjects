@@ -20,7 +20,9 @@ namespace Web20200924.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            DateTime dateTime = DateTime.Now;
+
+            return View(dateTime);
         }
 
         public IActionResult Privacy()
