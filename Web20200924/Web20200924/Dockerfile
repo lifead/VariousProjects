@@ -24,9 +24,9 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1	
 # TCP порт, который будет слушать Docker и в дальнейшем будет использоваться для опубликования
 #/bin/sh -c dotnet build -c Release
-RUN ls
-RUN /bin/sh -c dotnet build -c Release
-RUN /bin/sh -c dotnet publish -c Release
+# RUN ls
+# RUN /bin/sh -c dotnet build -c Release
+# RUN /bin/sh -c dotnet publish -c Release
 EXPOSE 80										
 # копирование
 COPY bin/Release/netcoreapp3.1/publish/ App/	
